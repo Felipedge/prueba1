@@ -37,8 +37,6 @@ const Buscador = () => {
                     <div className='card-contenedor'>
                         {results.map((characters) => (
                             <div className="card" key={characters.id}>
-                                <div> {characters.image}</div>
-
                                 <div>Nombre: {characters.name}</div>
                                 <div>Casa: {characters.house}</div>
                                 <div>Genero: {characters.gender}</div>
