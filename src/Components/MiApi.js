@@ -12,6 +12,14 @@ const Buscador = () => {
         const response = await fetch(URL)
         const data = await response.json()
         setUsers(data)
+        const sortData = data.sort((a,b)=> {
+            if (a.name < b.name) {
+                return-1;
+            } if (a.name > b.name){
+                return 1;
+            } return 0;
+
+        })
     }
 
     const searcher = (e) => {
