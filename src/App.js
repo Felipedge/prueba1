@@ -1,4 +1,4 @@
-
+import Navbar from "./Components/Navbar";
 import MiApi from "./Components/MiApi"
 
 function App() {
@@ -6,11 +6,9 @@ function App() {
 
     <div>
       <div>
+        <Navbar />
       </div>
-      <div className="container-fluid">
-        <h1 className='text-center' >Harry Potter-PEDIA</h1>
-      </div>
-      
+
       <div>
         <MiApi />
       </div>

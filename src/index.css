@@ -13,6 +13,17 @@ code {
   font-family: 'PT Sans Caption', sans-serif;
 }
 
+.logo{
+  height: 200px;
+  margin-left: 50px;
+}
+.titulo{
+  font-size: 50px;
+  color: yellow;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'PT Sans Caption', sans-serif;
+
+}
 .container-fluid {
   width: 100%;
   margin-top: 30px;
