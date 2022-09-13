@@ -34,8 +34,11 @@ const Buscador = () => {
                     </p>
                 </div>
                 <main className="main" >
-                    {results.map((characters) => (
+                    <div className='card-contenedor'>
+                        {results.map((characters) => (
                             <div className="card" key={characters.id}>
+                                <div> {characters.image}</div>
+
                                 <div>Nombre: {characters.name}</div>
                                 <div>Casa: {characters.house}</div>
                                 <div>Genero: {characters.gender}</div>
@@ -44,7 +47,9 @@ const Buscador = () => {
                                 <div>Patronus: {characters.patronus}</div>
 
                             </div>
+                            
                     ))}
+                    </div>
                 </main>
             </table>
         </div>
